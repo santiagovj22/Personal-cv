@@ -4,7 +4,7 @@ const Page=()=>{
     return(
         <div>
                     
-                <header className="py-5 mb-5">
+                <header className="py-5 mb-5" id="home">
                     <div className="container h-100">
                      <div className="row h-100 align-items-center">
                         <div className="col-lg-12">
