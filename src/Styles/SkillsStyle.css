@@ -1,0 +1,70 @@
+.row {
+    margin-top: 30px;   
+}
+.round {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #222;    
+    color: #FFF;
+    text-align: center;  
+}
+.round.hollow {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #FFF;    
+    color: #222;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 0px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 0px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 0px 3px rgba(0,0,0,0.75);
+}
+
+.round.round-sm {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+.round.round-lg {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+.round.blue {
+    background-color: #3EA6CE;
+}
+
+.round.orange {
+    background-color: #FF6701;
+}
+
+.round.green {
+    background-color: #42A129;
+}
+
+.round.purple{
+    background-color: purple;
+}
+.round.rose{
+    background-color: rgb(202, 21, 157)
+}
+.round.yellow{
+    background-color: rgb(183, 201, 24);
+}
+.round.red{
+    background-color: rgb(190, 46, 46);
+}
