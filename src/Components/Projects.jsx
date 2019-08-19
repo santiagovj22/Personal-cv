@@ -3,12 +3,21 @@ import Rigctus from '../Images/logoRigctus.png';
 import Tienda from '../Images/1.jpg';
 import Geek from '../Images/2.png';
 import Conf from '../Images/speaker1.jpg';
-
+import Eco from '../Images/ecorecarga.png';
 const Projects=()=>{
     return(
         <div className="container" id="projects">
           <h1 className="text-center text-white">Projects</h1>
           <div className="row">
+          <div className="col-md-4 mb-5">
+              <div className="h-70">
+                <a href="https://ecorecarga.netlify.com/" rel="noopener noreferrer"><img className="card-img-top" src={Eco} alt=""/></a>
+                  <div className="card-body">
+                    <h4 className="text-white">Ecorecargas</h4>
+                    <p className="card-text text-white">initiative for young people from schools to recycle the packaging, store them and not give them to us, in return they will receive recharges to their cell phone</p>
+                  </div>
+               </div>
+            </div>
             <div className="col-md-4 mb-5">
               <div className="h-70">
                 <a href="a"><img className="card-img-top" src={Rigctus} alt=""/></a>

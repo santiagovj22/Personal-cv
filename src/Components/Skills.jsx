@@ -4,7 +4,7 @@ const Skills=()=>{
     return(
         <div className="container" id="skills">
             <h1 className="text-center text-white">Skills</h1>
-            <div class="row">
+            <div className="row">
                     <div className="col-sm-1">
                         <div className="round round-lg purple">
                             <span className="fab fa-bootstrap"></span>

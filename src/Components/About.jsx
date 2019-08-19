@@ -14,9 +14,7 @@ const About=()=>{
                     <div className="col-md-4 mb-3 text-white">
                         <h2>Contact Me</h2>
                         
-                        <address>
-                            
-                        </address>
+                        
                         <address>
                         <div className="btn-group ">
                             <a className="btn btn-outline-info" href="https://www.linkedin.com/in/santiago-valle-216a2818a/"><i className="fab fa-linkedin-in fa-3x"></i></a>
