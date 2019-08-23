@@ -23,7 +23,7 @@ const About=()=>{
                         </div>
                             <br/>
                             <a href="https://www.gmail.com/">iefaz.santiagovalle@gmail.com</a>
-                            <p className="text-white">UserName= Pechuga22</p>
+                            <p className="text-white">UserName = Pechuga22</p>
                             <p className="text-white">Medellin, Colombia</p>
 
                         </address>
