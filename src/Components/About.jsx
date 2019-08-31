@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Cv from '../Images/Cv.pdf';
 const About=()=>{
     return(
             <div>
@@ -10,6 +10,7 @@ const About=()=>{
                             <hr/>
                             <p>I am a Software Developer with experience in front-end / Back-end areas, i am able to identify customer needs and create innovate alternatives for their projects and i have the ability to provide solutions in the area of software development </p>
                             <a className="btn btn-primary btn-lg" href="https://wa.me/573133461897?text=Me%20gustaría%20saber%20mas%20de%20sus%20servicios"><i className="fab fa-whatsapp"> Start Now!!</i></a>
+                        
                         </div>
                     <div className="col-md-4 mb-3 text-white">
                         <h2>Contact Me</h2>
@@ -24,6 +25,7 @@ const About=()=>{
                             <br/>
                             <a href="https://www.gmail.com/">iefaz.santiagovalle@gmail.com</a>
                             <p className="text-white">UserName = Pechuga22</p>
+                            <a className="btn btn-dark btn-lg" href={Cv}>Curriculum</a>;
                             <p className="text-white">Medellin, Colombia</p>
 
                         </address>
